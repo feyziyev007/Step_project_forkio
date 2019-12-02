@@ -1,0 +1,47 @@
+.talking {
+  background: url('/dist/img/testmonials-bg@1X.png') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  h1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-style: 35pt;
+    font-family: 'Montserrat';
+    font-weight: bold;
+  }
+  .row-1 {
+    .talking-logo {
+      height: 70px;
+      margin-bottom: 10px;
+    }
+  }
+  .row-2 {
+    .talking-logo {
+      height: 60px;
+      // margin-bottom: 20px;
+    }
+  }
+  .talking-company {
+    margin-bottom: 70px;
+    p {
+      font-family: 'Lato';
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+
+  .talking-footer {
+    font-family: 'Lato';
+    font-size: 10pt;
+    color: rgba(162, 145, 165, 255);
+    padding: inherit;
+  }
+
+  .talking-footer-line {
+    height: 2px;
+    width: 780px;
+    background: #645766;
+    margin: 0 auto;
+  }
+}
